@@ -2,9 +2,9 @@
 <head>
     <link href="styles.css" rel="stylesheet">
     </head>
-<body style="background-color:lightblue;" >
+<body style="background-color:wheat;" >
     
-    <h1 style="text-align:center; font-size: 100px; color:grey;">GMIT Fee Portal</h1>
+    <h1 style="text-align:center; font-size: 100px; color:black;">GMIT Fee Portal</h1>
     <form action="/action_page.php" method="post">
         <div class="container">
     <label for="uname"><b>NAME</b></label>
@@ -24,18 +24,27 @@
 
 <h3>Select the Fees for which you want to make the payment:</h3>
 <div>
-  <br>
-  <input type="radio" id="otherfee" name="otherfee">
+  <input type="radio" id="otherfee" name="fees">
   <label for="otherfee">Breakage Fees and Others</label><br>
-  <input type="radio" id="collegefees" name="collegefees" >
+  <input type="radio" id="collegefees" name="fees">
   <label for="collegefees">Tution/College Fees</label><br>  
-  <input type="radio" id="hostelfees" name="hostelfees">
+  <input type="radio" id="hostelfees" name="fees">
   <label for="hostelfees">Hostel Fees</label><br>
-  <input type="radio" id="examfees" name="examfees">
+  <input type="radio" id="examfees" name="fees">
   <label for="examfees">Exam Fees</label><br><br>
   
   </div>
-  
+
+  <h3>Select the Payment Mode:</h3>
+<div>
+  <input type="radio" id="CC/DC" name="bank">
+  <label for="CC">Credit or Debit Card </label><br>  
+  <input type="radio" id="NetBanking" name="bank">
+  <label for="Netbanking">Net Banking</label><br>
+
+  </div>
+
+
 
 <button type="submit">Pay Fees</button>
 </div>
