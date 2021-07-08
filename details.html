@@ -1,0 +1,47 @@
+<html>
+<head>
+    <link href="styles.css" rel="stylesheet">
+    </head>
+<body style="background-color:lightblue;" >
+    
+    <h1 style="text-align:center; font-size: 100px; color:grey;">GMIT Fee Portal</h1>
+    <form action="/action_page.php" method="post">
+        <div class="container">
+    <label for="uname"><b>NAME</b></label>
+    <input type="text" placeholder="Enter Name" name="uname" required>
+
+    <label for="uname"><b>USN</b></label>
+<input type="text" placeholder="Enter USN" name="usn" required>
+
+    <label for="uname"><b>BRANCH</b></label>
+<input type="text" placeholder="Enter Branch" name="branch" required>
+ 
+    <label for="uname"><b>SEMESTER</b></label>
+<input type="text" placeholder="Enter Semester" name="semester" required>
+
+    <label for="uname"><b>AMOUNT</b></label>
+<input type="text" placeholder="Enter Amount" name="amount" required>
+
+<h3>Select the Fees for which you want to make the payment:</h3>
+<div>
+  <br>
+  <input type="radio" id="otherfee" name="otherfee">
+  <label for="otherfee">Breakage Fees and Others</label><br>
+  <input type="radio" id="collegefees" name="collegefees" >
+  <label for="collegefees">Tution/College Fees</label><br>  
+  <input type="radio" id="hostelfees" name="hostelfees">
+  <label for="hostelfees">Hostel Fees</label><br>
+  <input type="radio" id="examfees" name="examfees">
+  <label for="examfees">Exam Fees</label><br><br>
+  
+  </div>
+  
+
+<button type="submit">Pay Fees</button>
+</div>
+</form>
+
+
+
+</body>
+</html>
